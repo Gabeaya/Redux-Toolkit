@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch} from "react-redux"; //modifies values of state
-import { login } from '../features/user';
+import { login, logout } from '../features/user';
 
 function Login() {
   const dispatch = useDispatch()
@@ -13,6 +13,12 @@ function Login() {
       >
         Login
       </button>
+      <button 
+        onClick={() => {
+          dispatch(logout());
+        }}
+        >
+        </button>
     </div>
   );
 }
