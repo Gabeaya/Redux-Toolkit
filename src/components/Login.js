@@ -18,6 +18,7 @@ function Login() {
           dispatch(logout());
         }}
         >
+          Logout
         </button>
     </div>
   );
