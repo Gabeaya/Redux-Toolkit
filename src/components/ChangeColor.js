@@ -20,7 +20,7 @@ function ChangeColor() {
           dispatch(changeColor(color));
         }}
       > 
-        Dark Mode
+        Change Color
       </button>
     </div>
   );
